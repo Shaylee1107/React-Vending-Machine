@@ -1,9 +1,4 @@
-.vendingText {
-    color: purple; 
-    text-align: center;
-}
-
-.vendingPhotoDiv {
+.snacks-photo-div {
     margin: auto;
     text-align: center;
     display: block;
@@ -14,7 +9,7 @@
     bottom: 0;
 }
 
-.vendingPhoto {
-    width: 700px; 
-    height: auto;
+.snack-photo {
+    width: 200px; 
+    height: auto; 
 }

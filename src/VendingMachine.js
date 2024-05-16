@@ -2,7 +2,7 @@ import React from 'react';
 import './VendingMachine.css';
 
 const VendingMachine = () => {
-    const vendingMachinePhoto = require('./vendingMachine.png');
+    const vendingMachinePhoto = require('./snacks/photos/vendingMachine.png');
     return (
         <div>
             <div className="vendingText">
