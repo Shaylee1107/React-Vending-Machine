@@ -1,0 +1,14 @@
+.vendingText {
+    color: purple; 
+    text-align: center;
+}
+
+.vendingPhotoDiv {
+    margin: auto;
+    text-align: center;
+}
+
+.vendingPhoto {
+    width: 800px; 
+    height: auto;
+}
