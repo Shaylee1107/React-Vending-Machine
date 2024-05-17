@@ -5,6 +5,7 @@ import VendingMachine from './VendingMachine';
 import Doritos from './snacks/Doritos';
 import Coke from './snacks/Coke';
 import Snicker from './snacks/Snicker';
+import Racoon from './snacks/Racoon';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='/coke' element={<Coke/>}/>
           <Route path='/doritos' element={<Doritos/>}/>
           <Route path='/snicker' element={<Snicker/>}/>
+          <Route path='/racoon' element={<Racoon/>}/>
         </Routes>
         <Navbar/>
       </BrowserRouter>

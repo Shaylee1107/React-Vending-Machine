@@ -10,6 +10,22 @@
 }
 
 .snack-photo {
-    width: 200px; 
+    width: 230px; 
     height: auto; 
+}
+
+.doritos-photo {
+    width: 400px;
+}
+
+.snicker-photo {
+    width: 350px;
+}
+
+.nice-racoon-photo {
+    width: 300px;
+}
+
+.mad-racoon-photo {
+    width: 450px; 
 }
