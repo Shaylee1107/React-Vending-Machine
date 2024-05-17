@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
 import './photos/photos.css';
 
 const Racoon = () => {
@@ -41,12 +42,17 @@ const Racoon = () => {
     }
 
     return (
-        <div className="snack-photo-div">
-            {racoonBadMood === false 
-                ? showHappyRacoon()
-                : makeRacoonRunaway()
-            }
-        </div>
+        <>
+            <div className="snack-photo-div">
+                {racoonBadMood === false 
+                    ? showHappyRacoon()
+                    : makeRacoonRunaway()
+                }
+            </div>
+            <nav>
+                <Link to="/" className="venging-machine-link">Vending Machine</Link>
+            </nav>
+        </>
     )
 }
 

@@ -19,8 +19,9 @@ function App() {
           <Route path='/snicker' element={<Snicker/>}/>
           <Route path='/racoon' element={<Racoon/>}/>
         </Routes>
-        <Navbar/>
+        {/* <Navbar/> */}
       </BrowserRouter>
+ 
     </div>
   );
 }
