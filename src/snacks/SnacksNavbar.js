@@ -22,7 +22,7 @@ const SnacksNavbar = ({mySnack}) => {
     //         })
     
     return (
-        <div style={{textAlign: 'center', marginTop: '10px', backgroundColor: 'hsl(0, 0%, 65%)', marginTop: 0, padding: '10px 0'}}>
+        <div style={{textAlign: 'center', backgroundColor: 'hsl(0, 0%, 65%)', marginTop: 0, padding: '10px 0'}}>
             {snacks.map((s) => {
                 if(s.snack === mySnack){
                     s.color = 'hsl(280, 100%, 55%)';
