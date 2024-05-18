@@ -44,7 +44,7 @@ const Racoon = () => {
 
     return (
         <>
-            <SnacksNavbar mySnack="racoon"/>
+            <SnacksNavbar mySnack="RACOON"/>
             <div className="snack-photo-div">
                 {racoonBadMood === false 
                     ? showHappyRacoon()

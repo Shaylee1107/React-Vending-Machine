@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 import SnacksNavbar from './SnacksNavbar';
 import './snacks.css';
 
-const Snicker = () => {
+const Snickers = () => {
     const snickerPhoto = require('./photos/snicker.png');
     return (
         <>
-            <SnacksNavbar mySnack="snicker"/>
+            <SnacksNavbar mySnack="SNICKERS"/>
             <div className="snack-photo-div">
                 <motion.img 
                     src={snickerPhoto} 
@@ -25,4 +25,4 @@ const Snicker = () => {
     )
 }
 
-export default Snicker; 
+export default Snickers; 

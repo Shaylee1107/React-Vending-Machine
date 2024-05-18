@@ -8,7 +8,7 @@ const Doritos = () => {
     const doritosPhoto = require('./photos/doritos.png');
     return (
         <>
-            <SnacksNavbar mySnack="doritos"/>
+            <SnacksNavbar mySnack="DORITOS"/>
             <div className="snack-photo-div">
                 <motion.img 
                     src={doritosPhoto} 

@@ -2,12 +2,12 @@ import React from 'react';
 
 const SnacksNavbar = ({mySnack}) => {
     const snacks = [
-        {snack: 'coke', color: 'purple', key: 1}, 
-        {snack: 'doritos', color: 'purple', key: 2}, 
-        {snack: 'snicker', color: 'purple', key: 3}, 
-        {snack: 'racoon', color: 'purple', key: 4}
+        {snack: 'COKE', color: 'grey', key: 1}, 
+        {snack: 'DORITOS', color: 'grey', key: 2}, 
+        {snack: 'SNICKERS', color: 'grey', key: 3}, 
+        {snack: 'RACOON', color: 'grey', key: 4}
     ];
-    
+
     // const [currentSnack, setCurrentSnack] = useState(snacks);
 
     // useEffect(() => {
@@ -22,7 +22,7 @@ const SnacksNavbar = ({mySnack}) => {
     //         })
     
     return (
-        <div style={{textAlign: 'center', marginTop: '10px'}}>
+        <div style={{textAlign: 'center', marginTop: '10px', backgroundColor: 'hsl(0, 0%, 65%)', marginTop: 0, padding: '10px 0'}}>
             {snacks.map((s) => {
                 if(s.snack === mySnack){
                     s.color = 'hsl(280, 100%, 55%)';

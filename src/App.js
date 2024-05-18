@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import VendingMachine from './VendingMachine';
 import Doritos from './snacks/Doritos';
 import Coke from './snacks/Coke';
-import Snicker from './snacks/Snicker';
+import Snickers from './snacks/Snickers';
 import Racoon from './snacks/Racoon';
 import './App.css';
 
@@ -15,7 +15,7 @@ function App() {
           <Route path='/' element={<VendingMachine/>}/>
           <Route path='/coke' element={<Coke/>}/>
           <Route path='/doritos' element={<Doritos/>}/>
-          <Route path='/snicker' element={<Snicker/>}/>
+          <Route path='/snickers' element={<Snickers/>}/>
           <Route path='/racoon' element={<Racoon/>}/>
         </Routes>
       </BrowserRouter>

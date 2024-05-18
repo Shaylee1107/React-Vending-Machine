@@ -8,7 +8,7 @@ const Coke = () => {
     const cokePhoto = require('./photos/coke.png');
     return (
         <>
-            <SnacksNavbar mySnack="coke"/>
+            <SnacksNavbar mySnack="COKE"/>
             <div className="snack-photo-div">
                 <motion.img 
                     src={cokePhoto} 
