@@ -1,12 +1,14 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
-import './photos/photos.css';
+import SnacksNavbar from './SnacksNavbar';
+import './snacks.css';
 
 const Doritos = () => {
     const doritosPhoto = require('./photos/doritos.png');
     return (
         <>
+            <SnacksNavbar mySnack="doritos"/>
             <div className="snack-photo-div">
                 <motion.img 
                     src={doritosPhoto} 
@@ -15,8 +17,8 @@ const Doritos = () => {
                     animate={{ rotate: 360 }}
                 />
             </div>
-            <nav>
-                <Link to="/" className="venging-machine-link">Vending Machine</Link>
+            <nav className="snacks-nav">
+                <h3>Go back to {<Link to="/" className="venging-machine-link">Vending Machine</Link>}</h3>
             </nav>
         </>
     )

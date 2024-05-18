@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
-import './photos/photos.css';
+import SnacksNavbar from './SnacksNavbar';
+import './snacks.css';
 
 const Racoon = () => {
     const [racoonBadMood, setRacoonBadMood] = useState(false);
@@ -21,7 +22,7 @@ const Racoon = () => {
                 onClick={petRacoon} 
                 className="snack-photo mad-racoon-photo" 
                 animate={{ x: -1000 }} 
-                transition={{ ease: "easeOut", duration: 1.5 }}
+                transition={{ ease: "easeOut", duration: 1.7 }}
               />
               <h3>Ah! He didn't like that!</h3>
             </div>
@@ -43,14 +44,15 @@ const Racoon = () => {
 
     return (
         <>
+            <SnacksNavbar mySnack="racoon"/>
             <div className="snack-photo-div">
                 {racoonBadMood === false 
                     ? showHappyRacoon()
                     : makeRacoonRunaway()
                 }
             </div>
-            <nav>
-                <Link to="/" className="venging-machine-link">Vending Machine</Link>
+            <nav className="snacks-nav">
+                <h3>Go back to {<Link to="/" className="venging-machine-link">Vending Machine</Link>}</h3>
             </nav>
         </>
     )

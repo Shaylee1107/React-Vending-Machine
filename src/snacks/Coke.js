@@ -1,12 +1,14 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
-import './photos/photos.css';
+import SnacksNavbar from './SnacksNavbar';
+import './snacks.css';
 
 const Coke = () => {
     const cokePhoto = require('./photos/coke.png');
     return (
         <>
+            <SnacksNavbar mySnack="coke"/>
             <div className="snack-photo-div">
                 <motion.img 
                     src={cokePhoto} 
@@ -17,9 +19,8 @@ const Coke = () => {
                     transition={{ duration: 0.5 }} 
                 />
             </div>
-            <nav style={{display: 'inline-block'}}>
-                <h3>Go back to</h3>
-                <Link to="/" className="venging-machine-link">Vending Machine</Link>
+            <nav className="snacks-nav">
+                <h3>Go back to {<Link to="/" className="venging-machine-link">Vending Machine</Link>}</h3>
             </nav>
         </>
     )

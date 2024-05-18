@@ -1,12 +1,14 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
-import './photos/photos.css';
+import SnacksNavbar from './SnacksNavbar';
+import './snacks.css';
 
 const Snicker = () => {
     const snickerPhoto = require('./photos/snicker.png');
     return (
         <>
+            <SnacksNavbar mySnack="snicker"/>
             <div className="snack-photo-div">
                 <motion.img 
                     src={snickerPhoto} 
@@ -16,8 +18,8 @@ const Snicker = () => {
                 />
                 <h3>Oh no! Someone took a bite...</h3>
             </div>
-            <nav>
-                <Link to="/" className="venging-machine-link">Vending Machine</Link>
+            <nav className="snacks-nav">
+                <h3>Go back to {<Link to="/" className="venging-machine-link">Vending Machine</Link>}</h3>
             </nav>
         </>
     )

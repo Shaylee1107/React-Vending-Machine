@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './Navbar';
 import VendingMachine from './VendingMachine';
 import Doritos from './snacks/Doritos';
 import Coke from './snacks/Coke';
@@ -19,9 +18,7 @@ function App() {
           <Route path='/snicker' element={<Snicker/>}/>
           <Route path='/racoon' element={<Racoon/>}/>
         </Routes>
-        {/* <Navbar/> */}
       </BrowserRouter>
- 
     </div>
   );
 }

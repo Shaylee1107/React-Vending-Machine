@@ -10,7 +10,7 @@
 }
 
 .snack-photo {
-    width: 230px; 
+    width: 210px; 
     height: auto; 
 }
 
@@ -29,3 +29,12 @@
 .mad-racoon-photo {
     width: 450px; 
 }
+
+.snacks-nav {
+    position: absolute;
+    bottom: 10%; 
+    left: 40%; 
+    right: 40%;
+    text-align: center;
+}
+
