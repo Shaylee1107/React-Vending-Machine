@@ -1,4 +1,5 @@
 import React from 'react';
+import './SnacksNavbar.css';
 
 const SnacksNavbar = ({mySnack}) => {
     const snacks = [
@@ -22,12 +23,12 @@ const SnacksNavbar = ({mySnack}) => {
     //         })
     
     return (
-        <div style={{textAlign: 'center', backgroundColor: 'hsl(0, 0%, 65%)', marginTop: 0, padding: '10px 0'}}>
+        <div className="snacks-navbar-div">
             {snacks.map((s) => {
                 if(s.snack === mySnack){
                     s.color = 'hsl(280, 100%, 55%)';
                 }
-                return <h3 style={{color: `${s.color}`, display: 'inline', marginLeft: '20px'}} key={s.key}>{s.snack}</h3>
+                return <h3 style={{color: `${s.color}`}} className="snack" key={s.key}>{s.snack}</h3>
             })}
         </div>
     )

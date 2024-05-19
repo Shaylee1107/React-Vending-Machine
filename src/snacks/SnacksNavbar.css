@@ -1,0 +1,11 @@
+.snacks-navbar-div {
+    text-align: center;
+    background-color: hsl(0, 0%, 65%);
+    margin-top: 0; 
+    padding: 10px 0; 
+}
+
+.snack {
+    display: inline; 
+    margin-left: 20px;
+}

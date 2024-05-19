@@ -9,8 +9,8 @@ const VendingMachine = () => {
         <div>
             <SnacksNavbar/>
             <div className="vendingText">
-                <h1 style={{marginBottom: '0'}}>Vending Machine</h1>
-                <h3 style={{marginTop: '5px', color: 'hsl(105, 100%, 33%)'}}>Choose your snack!</h3>
+                <h1 className="title">Vending Machine</h1>
+                <h3 className="subheading">Choose your snack!</h3>
             </div>
             <div className="vendingPhotoDiv">
                 <img src={vendingMachinePhoto} className="vendingPhoto" alt="Vending Machine"/>
