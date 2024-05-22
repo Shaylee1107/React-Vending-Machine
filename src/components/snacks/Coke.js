@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
 import SnacksNavbar from './SnacksNavbar';
-import './snacks.css';
+import '../../css/Snacks.css';
 
 const Coke = () => {
-    const cokePhoto = require('./photos/coke.png');
+    const cokePhoto = require('../../photos/coke.png');
     return (
         <>
             <SnacksNavbar mySnack="COKE"/>

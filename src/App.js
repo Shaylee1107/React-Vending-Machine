@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import VendingMachine from './VendingMachine';
-import Doritos from './snacks/Doritos';
-import Coke from './snacks/Coke';
-import Snickers from './snacks/Snickers';
-import Racoon from './snacks/Racoon';
-import './App.css';
+import VendingMachine from './components/VendingMachine';
+import Doritos from './components/snacks/Doritos';
+import Coke from './components/snacks/Coke';
+import Snickers from './components/snacks/Snickers';
+import Racoon from './components/snacks/Racoon';
+import './css/App.css';
 
 function App() {
   return (

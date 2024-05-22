@@ -2,13 +2,13 @@ import React, {useState} from 'react';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
 import SnacksNavbar from './SnacksNavbar';
-import './snacks.css';
+import '../../css/Snacks.css';
 
 const Racoon = () => {
     const [racoonBadMood, setRacoonBadMood] = useState(false);
 
-    const niceRacoonPhoto = require('./photos/nice-racoon.png');
-    const madRacoonPhoto = require('./photos/mad-racoon.png');
+    const niceRacoonPhoto = require('../../photos/nice-racoon.png');
+    const madRacoonPhoto = require('../../photos/mad-racoon.png');
 
     const petRacoon = () => {
         setRacoonBadMood(mood => !mood);

@@ -1,10 +1,10 @@
 import React from 'react';
-import './VendingMachine.css';
+import '../css/VendingMachine.css';
 import Navbar from './Navbar';
 import SnacksNavbar from './snacks/SnacksNavbar';
 
 const VendingMachine = () => {
-    const vendingMachinePhoto = require('./snacks/photos/vendingMachine.png');
+    const vendingMachinePhoto = require('../photos/vendingMachine.png');
     return (
         <div>
             <SnacksNavbar/>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './SnacksNavbar.css';
+import '../../css/SnacksNavbar.css';
 
 const SnacksNavbar = ({mySnack}) => {
     const snacks = [
@@ -8,19 +8,6 @@ const SnacksNavbar = ({mySnack}) => {
         {snack: 'SNICKERS', color: 'grey', key: 3}, 
         {snack: 'RACOON', color: 'grey', key: 4}
     ];
-
-    // const [currentSnack, setCurrentSnack] = useState(snacks);
-
-    // useEffect(() => {
-    //         setCurrentSnack((snacks) => {
-    //             const currSnacks = Object.values(snacks).map((s) => {
-    //                 if(window.location.href.indexOf(s.snack) > -1){
-    //                     s.color = 'hsl(280, 100%, 55%)';
-    //                 } 
-    //                 return s; 
-    //             });
-    //             return currSnacks; 
-    //         })
     
     return (
         <div className="snacks-navbar-div">
