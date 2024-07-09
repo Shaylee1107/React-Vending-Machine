@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import VendingMachine from './components/VendingMachine';
 import Doritos from './components/snacks/Doritos';
 import Coke from './components/snacks/Coke';
@@ -10,7 +10,7 @@ import './css/App.css';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path='/' element={<VendingMachine/>}/>
           <Route path='/coke' element={<Coke/>}/>
@@ -18,7 +18,7 @@ function App() {
           <Route path='/snickers' element={<Snickers/>}/>
           <Route path='/racoon' element={<Racoon/>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
