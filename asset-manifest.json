@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/React-Vending-Machine/static/css/main.d8283a4d.css",
-    "main.js": "/React-Vending-Machine/static/js/main.3615ac4f.js",
-    "static/js/453.d5696438.chunk.js": "/React-Vending-Machine/static/js/453.d5696438.chunk.js",
-    "static/media/doritos.png": "/React-Vending-Machine/static/media/doritos.e330a876663414ac948a.png",
-    "static/media/mad-racoon.png": "/React-Vending-Machine/static/media/mad-racoon.20e82c69d083620ce24f.png",
-    "static/media/nice-racoon.png": "/React-Vending-Machine/static/media/nice-racoon.2ae1518a4290207d35de.png",
-    "static/media/vendingMachine.png": "/React-Vending-Machine/static/media/vendingMachine.d30d5e2e0e0c91ff0739.png",
-    "static/media/snicker.png": "/React-Vending-Machine/static/media/snicker.093b27e1e82a93322026.png",
-    "static/media/coke.png": "/React-Vending-Machine/static/media/coke.53777ac90ce4eb7a6bac.png",
-    "index.html": "/React-Vending-Machine/index.html",
-    "main.d8283a4d.css.map": "/React-Vending-Machine/static/css/main.d8283a4d.css.map",
-    "main.3615ac4f.js.map": "/React-Vending-Machine/static/js/main.3615ac4f.js.map",
-    "453.d5696438.chunk.js.map": "/React-Vending-Machine/static/js/453.d5696438.chunk.js.map"
+    "main.css": "/react-vending-machine/static/css/main.d8283a4d.css",
+    "main.js": "/react-vending-machine/static/js/main.bf155981.js",
+    "static/js/453.d5696438.chunk.js": "/react-vending-machine/static/js/453.d5696438.chunk.js",
+    "static/media/doritos.png": "/react-vending-machine/static/media/doritos.e330a876663414ac948a.png",
+    "static/media/mad-racoon.png": "/react-vending-machine/static/media/mad-racoon.20e82c69d083620ce24f.png",
+    "static/media/nice-racoon.png": "/react-vending-machine/static/media/nice-racoon.2ae1518a4290207d35de.png",
+    "static/media/vendingMachine.png": "/react-vending-machine/static/media/vendingMachine.d30d5e2e0e0c91ff0739.png",
+    "static/media/snicker.png": "/react-vending-machine/static/media/snicker.093b27e1e82a93322026.png",
+    "static/media/coke.png": "/react-vending-machine/static/media/coke.53777ac90ce4eb7a6bac.png",
+    "index.html": "/react-vending-machine/index.html",
+    "main.d8283a4d.css.map": "/react-vending-machine/static/css/main.d8283a4d.css.map",
+    "main.bf155981.js.map": "/react-vending-machine/static/js/main.bf155981.js.map",
+    "453.d5696438.chunk.js.map": "/react-vending-machine/static/js/453.d5696438.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8283a4d.css",
-    "static/js/main.3615ac4f.js"
+    "static/js/main.bf155981.js"
   ]
 }
