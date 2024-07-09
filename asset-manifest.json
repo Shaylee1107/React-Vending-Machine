@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-vending-machine/static/css/main.d8283a4d.css",
-    "main.js": "/react-vending-machine/static/js/main.bf155981.js",
+    "main.js": "/react-vending-machine/static/js/main.1ff3071e.js",
     "static/js/453.d5696438.chunk.js": "/react-vending-machine/static/js/453.d5696438.chunk.js",
     "static/media/doritos.png": "/react-vending-machine/static/media/doritos.e330a876663414ac948a.png",
     "static/media/mad-racoon.png": "/react-vending-machine/static/media/mad-racoon.20e82c69d083620ce24f.png",
@@ -11,11 +11,11 @@
     "static/media/coke.png": "/react-vending-machine/static/media/coke.53777ac90ce4eb7a6bac.png",
     "index.html": "/react-vending-machine/index.html",
     "main.d8283a4d.css.map": "/react-vending-machine/static/css/main.d8283a4d.css.map",
-    "main.bf155981.js.map": "/react-vending-machine/static/js/main.bf155981.js.map",
+    "main.1ff3071e.js.map": "/react-vending-machine/static/js/main.1ff3071e.js.map",
     "453.d5696438.chunk.js.map": "/react-vending-machine/static/js/453.d5696438.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8283a4d.css",
-    "static/js/main.bf155981.js"
+    "static/js/main.1ff3071e.js"
   ]
 }
