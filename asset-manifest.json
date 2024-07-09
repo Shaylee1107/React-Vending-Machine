@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-Vending-Machine/static/css/main.d8283a4d.css",
+    "main.js": "/React-Vending-Machine/static/js/main.3615ac4f.js",
+    "static/js/453.d5696438.chunk.js": "/React-Vending-Machine/static/js/453.d5696438.chunk.js",
+    "static/media/doritos.png": "/React-Vending-Machine/static/media/doritos.e330a876663414ac948a.png",
+    "static/media/mad-racoon.png": "/React-Vending-Machine/static/media/mad-racoon.20e82c69d083620ce24f.png",
+    "static/media/nice-racoon.png": "/React-Vending-Machine/static/media/nice-racoon.2ae1518a4290207d35de.png",
+    "static/media/vendingMachine.png": "/React-Vending-Machine/static/media/vendingMachine.d30d5e2e0e0c91ff0739.png",
+    "static/media/snicker.png": "/React-Vending-Machine/static/media/snicker.093b27e1e82a93322026.png",
+    "static/media/coke.png": "/React-Vending-Machine/static/media/coke.53777ac90ce4eb7a6bac.png",
+    "index.html": "/React-Vending-Machine/index.html",
+    "main.d8283a4d.css.map": "/React-Vending-Machine/static/css/main.d8283a4d.css.map",
+    "main.3615ac4f.js.map": "/React-Vending-Machine/static/js/main.3615ac4f.js.map",
+    "453.d5696438.chunk.js.map": "/React-Vending-Machine/static/js/453.d5696438.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8283a4d.css",
+    "static/js/main.3615ac4f.js"
+  ]
+}
